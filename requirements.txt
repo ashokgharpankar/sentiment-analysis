@@ -3,4 +3,11 @@
 
 ### 2. `requirements.txt`
 
+transformers>=4.30.0
+torch>=2.0.0
 
+# Optional: for interactive testing
+ipython
+
+# Optional: for exposing sentiment model as an API
+flask
